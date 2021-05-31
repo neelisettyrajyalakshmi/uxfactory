@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mobiles</title>
+        <!--<meta name="viewport" content="width=device-width intial-scale=1.0">-->
+        <style>
+            .mobile {
+                border:2px solid black;
+                display: inline-block;
+                background-color: blue;
+            }            
+            /* extra small devices (phones, 600px and down)*/
+            @media only screen and (max-width: 660px) {
+                body {
+                    background-color: blueviolet;
+                }
+                .mobile {
+                    width: 100%;
+                }
+            }
+            /* small devices (portraits tablets and large phones, 600px)*/
+            @media only scrren and (min-width: 600px) {
+                body {
+                    background-color: brown;
+                }
+                .mobile {
+                    width: 100%;
+                }
+
+            }
+            /* medium devices (landscapes tablets, 766px and up)*/
+            @media only screen and (min-width: 768px) {
+                body {
+                    background-color: cyan;
+                }
+                .mobile {
+                    width: 50%;
+                }
+            }
+            /*large devices (laptops, desktops, 982px and up)*/
+            @media only screen and (min-width: 982px) {
+                body {
+                    background-color: darkorange;
+                }
+                .mobile {
+                    width: 33.3%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mobile">
+            <img src="images/mobile.jpg" alt="image1" style="height:200px; width:200px;">
+            <p>Yu Ace</p>
+            <h4><b>Rs.4,999 </b><del style="opacity:0.5";>7000</del></h4>
+            <p style="opacity:0.5"><b><span style="color: brown;">16%</span></b>in last30 days</p>
+            <p style="border-top: 2px dotted white;border-bottom: 2px dotted white;"><span style="padding-left: 3px;color:white;background-color:limegreen"> 81 </span>VFM score</p>
+            <ul>
+                <li>5.45 screen</li>
+                <li>13 Mp camera</li>
+                <li>2GB RAM</li>
+                <li>4000mAh Battery</li>
+            </ul>
+            <button style="padding: 10px 20px; color:tomato;">View Details</button>
+        </div>
+        <div class="mobile">
+            <img src="images/mobile2.jpg" alt="image2" style="height:200px; width:200px">
+            <p>Micromax Evok Dual</p>
+            <h4><b>RS.4,499</b><del style="opacity:0.5"></del></h4>
+            <p style="border-top:2px dotted maroon; border-bottom:2px dotted maroon;"><span style="padding-left:2px;color:white;background-color: green;">90</span>VFM score</p>
+            <ul>
+                <li>5.5" Screen</li>
+                <li>Dual MP camera</li>
+                <li>4GB RAM</li>
+                <li>3000Ah Battery</li>
+            </ul>
+            <button style="padding:10px 20px; color:tomato;">View Details</button>
+        </div>
+        <div class="mobile">
+            <img src="images/mobile3.jpg" alt="image3" style="height:200px; width:200px">
+                <p>Micromax Bharat 2 Plus</p>
+                <h4><b> Rs.2,649</b> <del style="opacity:0.5"></del></h4>
+                <p style="opacity:0.5"><b><span style="color:2px red";>14%</span></b>in last 30 days</p>
+                <p style="border-top: 2px dotted white; border-bottom: 2px dotted white;"><span style="color:yellow">76</span> VFM Score</p>
+                <ul>
+                    <li>4.0" Screen</li>
+                    <li>5 MP Camera</li>
+                    <li>1GB RAM</li>
+                    <li>1600mAh Battery</li>
+                </ul>
+                <button style="padding: 10px 20px; color:tomato;">View Details</button>
+                </div>
+            </div>
+            <div class="mobile">
+                <img src="images/mobile4.jpg" alt="image4" style="height: 200px; width: 200px;">
+                    <p>Micromax Infinity</p>
+                    <h4><b>Rs. 6,699</b><del style="opacity:0.5">8000</del></h4>
+                    <p style="opacity:0.5"><span style="color:2px red";>14%</span>in last 30 days</p>
+                    <p style="border-top: 3px dotted white; border-bottom: 3px dotted white"><span style="padding-left: 2px white; color: 2px green">90</span>VFM Score</p>
+                    <ul>
+                        <li>6.19" Screen</li>
+                        <li>Dual Camera</li>
+                        <li>3GB RAM</li>
+                        <li>4000mAh Battery</li>
+                    </ul>
+                    <button style ="padding: 10px 20px; color: tomato;">View Details</button>
+            </div>
+        </div>
+    </body>
+</html>
