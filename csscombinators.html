@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css combinators</title>
+        <style>
+            /*descendent selector*/
+            div p {
+                background-color: indianred;
+            }
+            /*child selector*/
+            div > p {
+                background-color: lawngreen;
+            }
+            /*adjacent sibling selector*/
+            div + p {
+                background-color: lightseagreen;
+            }
+            /* general sibling selector*/
+            div ~ p {
+                background-color: maroon;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Css combinators</h1>
+        <div>
+            <p>First paragraph in the div</p>
+            <p>Second paragraph in the div</p>
+            <p>Third paragraph in the div</p>
+            <secion><p>Fourth paragraph in the div</p></secion>
+        </div>
+        <p>Fifth paragraph in the div</p>
+        <p>Sixth paragraph in the div</p>
+        </body>
+</html>
